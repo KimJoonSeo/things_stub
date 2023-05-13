@@ -9,9 +9,8 @@ Burst는 프로세스가 특정 Task의 실행을 완료하는데 걸리는 시�
 
 프로세스의 실행은 CPU Burst와 I/O Burst가 번갈아 발생한다.
 
-![cpu burst and io burst](../image/cpu_bound_io_bound.png)
+![cpu burst and io burst](https://www.cs.odu.edu/~price/cs471/public_html/spring17/lectures/Scheduling_files/image002.jpg)
 
-출처: [https://github.com/zacharski/cpsc405/blob/master/scheduling.md](https://github.com/zacharski/cpsc405/blob/master/scheduling.md)
 
 ## Comparison
 
