@@ -18,11 +18,13 @@
 
 ![https://velog.velcdn.com/images%2Ftess%2Fpost%2F7f1e8bff-032f-4709-a965-f1271d02d733%2F2021-03-07T20_37_39.png](https://velog.velcdn.com/images%2Ftess%2Fpost%2F7f1e8bff-032f-4709-a965-f1271d02d733%2F2021-03-07T20_37_39.png)
 
-## 동시(Concurrent)에 여러 일을 하기 위한 방법
+## 동시에 여러 일을 하기 위한 방법
 
 - Multiprocessing : 여러 개의 프로세스를 띄운다. Context Switching 시 많은 Overhead 발생
 - Multithreading : 하나의 프로세스 안에 여러 개 쓰레드를 생성한다. Context Switching 시 Multiprocessing 보다는 적은 Overhead가 발생하지만 Race condition 같은 동기화 문제가 발생할 수 있다.
-- Async programming + Non blocking I/O : 하나의 쓰레드 안에서 실행되기 때문에 Context Switching이 발생하지 않는다.
+- Async programming + Non blocking I/O : 하나의 쓰레드 안에서 실행되기 때문에 Context Switching이 발생하지 않는다. Race condition을 쉽게 피할 수 있고 더 적은 Computing 작원을 사용할 수 있다.
+
+![https://velog.velcdn.com/images%2Fcarrykim%2Fpost%2F16b41eb5-c556-48d4-82e5-7b2c0fe70d32%2Fimage.png](https://velog.velcdn.com/images%2Fcarrykim%2Fpost%2F16b41eb5-c556-48d4-82e5-7b2c0fe70d32%2Fimage.png)
 
 ## ****SYNC VS ASYNC COMMUNICATION (ARCHITECTURE)****
 
